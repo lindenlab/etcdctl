@@ -1,0 +1,12 @@
+Source: etcdctl
+Maintainer: Don Kjer <don@lindenlab.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), golang-go
+
+Package: etcdctl
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: etcdctl is a command line client for etcd.
+ etcdctl is a command line client for etcd. It can be used in scripts or for administrators to explore an etcd cluster.
